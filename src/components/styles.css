@@ -1,0 +1,117 @@
+/* General styles for task-related components */
+.task,
+.task-form,
+.task-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Heading style */
+.task h3,
+.task-item h3 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333333; /* Dark text color */
+}
+
+/* Paragraph text style */
+.task p,
+.task-item p {
+  margin-bottom: 10px;
+  color: #666666; /* Medium gray text color */
+}
+
+/* Select dropdown style */
+.task select,
+.task-item select,
+.task-form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 3px;
+}
+
+/* Button style */
+.task button,
+.task-item button,
+.task-form button {
+  padding: 8px 20px;
+  background-color: #dc3545; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Button hover state */
+.task button:hover,
+.task-item button:hover,
+.task-form button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Input and textarea style in task form */
+.task-form input,
+.task-form textarea {
+  display: block;
+  width: calc(100% - 16px); /* Adjusting for padding and border */
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 3px;
+}
+
+/* Add task button in task form */
+.task-form button {
+  margin-top: 10px;
+  background-color: #007bff; /* Blue background */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Add task button hover state */
+.task-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Task filter container style */
+.task-filter {
+  margin-bottom: 20px;
+  text-align: center; /* Center-align content */
+}
+
+/* Task filter select dropdown style */
+.task-filter select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 3px;
+}
+
+/* Task list container style */
+.task-list {
+  margin-bottom: 20px;
+}
+
+/* Heading style for task list */
+.task-list h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333333; /* Dark text color */
+}
+
+/* Select dropdown style in task list */
+.task-list select {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 3px;
+}

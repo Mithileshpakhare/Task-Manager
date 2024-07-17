@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Blue heading color */
+}
+
+/* Styling for TaskForm, TaskFilter, and TaskList */
+.task-components {
+  margin-top: 20px;
+}
